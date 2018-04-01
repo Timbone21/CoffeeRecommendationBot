@@ -18,13 +18,20 @@ You can see a version of this bot running [here](https://twitter.com/aacoffeebot
 ## Setup
 Install the requirements with `pip install -r requirements.txt`
 
+Create a `keys.py` file with the required tokens:
+  >consumer_key=""  
+  consumer_secret=""  
+  access_token_key=""  
+  access_token_secret=""  
+
+
 ## Testing
 
 ### [Travis CI](https://travis-ci.org)
 
 Configuration for Travis CI can be found inside `.travis.yml`. The demo version of this bot runs on `Python 2.7`.
 
-If you want travis to use other python versions like `3.3` you can simply change the `python:` line inside `.travis.yml`
+If you want travis to use other Python versions like `3.3` you can simply change the `python:` line inside `.travis.yml`
 
 **`.travis.yml` Python 3.3 Sample** 
 ```yml
@@ -42,7 +49,7 @@ script:
   - flake8 .
 ```
 
-You can even test for multiple python environments (2.7 & 3.3 in the sample below):smile:
+You can even test for multiple Python environments (2.7 & 3.3 in the sample below):smile:
 
 **`.travis.yml` Python 2.7 & 3.3 Sample** 
 ```yml
@@ -63,4 +70,7 @@ script:
 
 ## Contribution Guidelines
 Thanks for the interest !
-Contributiong guidelines are available in 'CONTRIBUTING.md'
+Contributing guidelines are available in '[CONTRIBUTING.md](CONTRIBUTING.md)'
+
+## License
+This project is licensed under the terms of the MIT license. The full license text is available in the [LICENSE](LICENSE) file.
